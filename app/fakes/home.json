@@ -1,0 +1,57 @@
+{
+    "title": "TEAMSHORE",
+    "slogan": "Offshore that works!",
+    "subtitle": "Want to enhance your delivery pipeline?",
+    "principles": [
+        {
+            "title": "Formalize Knowledge",
+            "url": "knowledge",
+            "icon": "icon-brain",
+            "image": "feature-thumbnail1.jpg"
+        },
+        {
+            "title": "Done is 100% done",
+            "url": "done",
+            "icon": "icon-done",
+            "image": "feature-thumbnail2.jpg"
+        },
+        {
+            "title": "I2C + early feedback",
+            "url": "feedback",
+            "icon": "icon-faces",
+            "image": "feature-thumbnail3.jpg"
+        },
+        {
+            "title": "People are unique",
+            "url": "people",
+            "icon": "icon-person",
+            "image": "feature-thumbnail4.jpg"
+        }        
+    ],
+    "practices": [
+        {
+            "title": "Remote Communication. One Culture",
+            "url": "culture",
+            "icon": "icon-laptop",
+            "image": "feature-thumbnail5.jpg"
+        },
+        {
+            "title": "Full Responsibility (SPOC)",
+            "url": "spoc",
+            "icon": "icon-group",
+            "image": "feature-thumbnail6.jpg"
+        },
+        {
+            "title": "Start with SCRUM. Then use LEAN",
+            "url": "lean",
+            "icon": "icon-watch",
+            "image": "feature-thumbnail7.jpg"
+        },
+        {
+            "title": "Favor regular on-site visits. Both ways",
+            "url": "contact",
+            "icon": "icon-contact",
+            "image": "feature-thumbnail8.jpg"
+        }
+    ]
+}

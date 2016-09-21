@@ -1,0 +1,52 @@
+/*                               ()_()                   
+                                 (. .)                  
+/----------------------------oo0--(_)--0oo-------------------------------------/
+
+/----      FOOTER    FOOTER    FOOTER     FOOTER     FOOTER     FOOTER      ---/
+
+                               ooo0  0ooo
+/------------------------------(  )--(  )--------------------------------------/
+/*                             (_)    (_)                                     */
+footer {
+    position: fixed;
+    z-index: 9999;
+    background-color: #17202F;
+    height: 64px;
+    padding: 11px 15px;
+    bottom: 0;
+    width: 100%;
+    border-top: solid 4px #F5F5F5;
+
+    .logo {
+        img {
+            width: 130px;
+        }
+    }
+
+    .social-links {
+        margin: 0;
+        font-size: 40px;
+        line-height: 0;
+
+        li {
+            padding: 0;
+
+            + li {
+                margin-left: -15px;
+            }
+
+            a {
+                text-decoration: none;
+                color: white;
+
+                &:hover {
+                    color: #2495D7;
+                }
+            }
+        }
+    }
+
+    @media(min-width: 768px) {
+        padding: 11px 60px;
+    }
+}

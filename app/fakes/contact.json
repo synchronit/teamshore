@@ -1,0 +1,38 @@
+{
+    "title": "Contact",
+    "icon": "icon8.svg",
+    "cover": "feature8.png",
+    "heading": "Come in Touch",
+    "countries": [
+        {
+            "country": "SWITZERLAND",
+            "city": "Baar",
+            "address": "Blegistrasse 5",
+            "flag": "switzerland.png",
+            "location": {
+                "latitude": "",
+                "longitude": ""
+            }
+        },
+        {
+            "country": "URUGUAY",
+            "city": "Montevideo",
+            "address": "San José 807 / 204",
+            "flag": "uruguay.png",
+            "location": {
+                "latitude": "",
+                "longitude": ""
+            }
+        },
+        {
+            "country": "GERMANY",
+            "city": "Munich",
+            "address": "Trappentreustrasse 17",
+            "flag": "germany.png",
+            "location": {
+                "latitude": "",
+                "longitude": ""
+            }
+        }
+    ]
+}

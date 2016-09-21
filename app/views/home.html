@@ -1,0 +1,52 @@
+<!-- Introduction -->
+
+<div class="introduction col-xs-12 col-md-5 col-lg-6">
+    <div class="intro-content">
+        <img src="assets/img/teamshore.svg" alt="">
+        <p class="h3 heading-line">
+            {{page.subtitle}}
+        </p>
+        <h1>
+            {{page.title}}
+            <small>{{page.slogan}}</small>
+        </h1> 
+    </div>
+</div>
+
+<!-- Navigation Menu -->
+
+<div class="menu col-xs-12 col-md-7 col-lg-6">
+
+    <div class="principles">
+
+        <p>PRINCIPLES</p>
+
+        <a ng-repeat="principle in page.principles" href="#/{{principle.url}}" class="menu_button">
+            <img alt="" ng-src="assets/img/features/{{principle.image}}">
+            <div class="heading">
+                <i class="{{principle.icon}}"></i>
+                <h2>
+                    {{principle.title}}
+                </h2>
+            </div>
+        </a>
+
+    </div>
+
+    <div class="practices">
+
+        <p>PRACTICES</p>
+
+        <a ng-repeat="practice in page.practices" href="#/{{practice.url}}" class="menu_button">
+            <img alt="" ng-src="assets/img/features/{{practice.image}}">
+            <div class="heading">
+                <i class="{{practice.icon}}"></i>
+                <h2>
+                    {{practice.title}}
+                </h2>
+            </div>
+        </a>
+
+    </div>
+
+</div>

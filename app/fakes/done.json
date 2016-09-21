@@ -1,0 +1,11 @@
+{
+    "title": "100% Done",
+    "icon": "icon2.svg",
+    "cover": "feature2.png",
+    "heading": "Done is 100% done",
+    "resource": {
+        "type": "video",
+        "url": "https://www.youtube.com/embed/qTSDL94_Y7M"
+    },
+    "content": "<p>A major contributions from Scrum and one of the reasons why we use it, is a clear Definition of Done (DoD).</p><p>For us, “done” means not just “released” but “full customer satisfaction”. We never stop before that.</p><p class='font-italic'>For years, when developers used to think that their job was writing code, it was common to hear things like “I am done” after the code was compiling.<br> Or things like “it works on my machine”. Users were frustrated. Then Scrum introduced the concept of Definition of Done. When you use Teamshore, there is only one definition of done: a delighted customer.</p>"
+}

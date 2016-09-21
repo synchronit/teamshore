@@ -1,0 +1,11 @@
+{
+    "title": "Knowledge",
+    "icon": "icon1.svg",
+    "cover": "feature1.png",
+    "heading": "SW Development is Formalizing Knowledge",
+    "resource": {
+        "type": "video",
+        "url": "https://www.youtube.com/embed/qTSDL94_Y7M"
+    },
+    "content": "<p>The main goal of SW Development is not typing code but to make explicit a behavior that is sometimes intuitive or ad-hoc.</p><p>The real purpose of any implementation is to properly define the right responses across a flow of actions.</p><p class='font-italic'>Thousands of years ago, egyptians were measuring the Nile rises. They believed that they were measuring the earth, whilst they were actually setting the basis for geo-metry. In some years, when talking about our times, people may well say “those ancient guys believed they were programming, but they were actually making knowledge explicit and formal”.</p>"
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Culture",
+    "icon": "icon5.svg",
+    "cover": "feature5.png",
+    "heading": "Remote Communication. One Culture",
+    "resource": {
+        "type": "video",
+        "url": "https://www.youtube.com/embed/qTSDL94_Y7M"
+    },
+    "content": "<p>Working as a team is only possible when communication flows.</p><p>Communication is much more than words.</p><p class='font-italic'>SW Development is about formalizing knowledge. Doing it together as a team is all about communication. This has been the main failure on traditional off-shore attempts.</p><p class='font-italic'>When working off-shore, remote communication is crucial. We have seen it working only when people talking across oceans and time-zones share a common culture.</p>"
+}
