@@ -475,9 +475,20 @@ figure figcaption {
                                ooo0  0ooo
 /------------------------------(  )--(  )--------------------------------------/
 /*                             (_)    (_)                                     */
+@-webkit-keyframes stay {
+  to {
+    opacity: 1;
+  }
+}
 @keyframes stay {
   to {
     opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeOut {
+  to {
+    opacity: 0;
   }
 }
 
@@ -487,15 +498,40 @@ figure figcaption {
   }
 }
 
+@-webkit-keyframes slideOutLeft {
+  to {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+}
+
 @keyframes slideOutLeft {
   to {
-    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+}
+
+@-webkit-keyframes slideOutRight {
+  to {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
   }
 }
 
 @keyframes slideOutRight {
   to {
-    transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }
 
@@ -508,21 +544,54 @@ figure figcaption {
   }
 }
 
-@keyframes slideInRight {
+@-webkit-keyframes slideInRight {
   from {
-    transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
   }
   to {
-    transform: translateX(0);
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+  to {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@-webkit-keyframes slideInLeft {
+  from {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+  to {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
   }
 }
 
 @keyframes slideInLeft {
   from {
-    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
   }
   to {
-    transform: translateX(0);
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@-webkit-keyframes scaleUp {
+  from {
+    opacity: 0.3;
+    -webkit-transform: scale(0.8);
   }
 }
 
@@ -594,11 +663,13 @@ body {
 }
 
 .page.ng-enter {
-  animation: slideInRight 0.5s;
+  -webkit-animation: slideInRight 0.5s;
+          animation: slideInRight 0.5s;
 }
 
 .page.ng-leave {
-  animation: slideOutRight 0.5s;
+  -webkit-animation: slideOutRight 0.5s;
+          animation: slideOutRight 0.5s;
 }
 
 .page .image-container {
@@ -620,10 +691,12 @@ body {
     padding: 0 calc(240px + 15px) 0 15px;
   }
   .page.ng-enter {
-    animation: fadeIn 0.5s;
+    -webkit-animation: fadeIn 0.5s;
+            animation: fadeIn 0.5s;
   }
   .page.ng-leave {
-    animation: fadeOut 0.5s;
+    -webkit-animation: fadeOut 0.5s;
+            animation: fadeOut 0.5s;
   }
   .page .image-container {
     display: block;
@@ -727,11 +800,13 @@ body {
 }
 
 .home.ng-leave {
-  animation: slideOutLeft 0.5s;
+  -webkit-animation: slideOutLeft 0.5s;
+          animation: slideOutLeft 0.5s;
 }
 
 .home.ng-enter {
-  animation: slideInLeft 0.5s;
+  -webkit-animation: slideInLeft 0.5s;
+          animation: slideInLeft 0.5s;
 }
 
 .home .introduction {
@@ -836,10 +911,8 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  -webkit-transition: -webkit-transform 1s linear;
   transition: -webkit-transform 1s linear;
   transition: transform 1s linear;
-  -webkit-transition: -webkit-transform 1s linear, -webkit-transform 1s linear;
   transition: transform 1s linear, -webkit-transform 1s linear;
 }
 
@@ -886,22 +959,28 @@ body {
 
 @media (min-width: 768px) {
   .home.ng-leave {
-    animation: stay 1s;
+    -webkit-animation: stay 1s;
+            animation: stay 1s;
   }
   .home.ng-leave .introduction {
-    animation: slideOutLeft 0.5s both ease-in;
+    -webkit-animation: slideOutLeft 0.5s both ease-in;
+            animation: slideOutLeft 0.5s both ease-in;
   }
   .home.ng-leave .menu {
-    animation: slideOutRight 0.5s both ease-in;
+    -webkit-animation: slideOutRight 0.5s both ease-in;
+            animation: slideOutRight 0.5s both ease-in;
   }
   .home.ng-enter {
-    animation: stay 0.5s;
+    -webkit-animation: stay 0.5s;
+            animation: stay 0.5s;
   }
   .home.ng-enter .introduction {
-    animation: slideInLeft 0.5s both ease-in;
+    -webkit-animation: slideInLeft 0.5s both ease-in;
+            animation: slideInLeft 0.5s both ease-in;
   }
   .home.ng-enter .menu {
-    animation: slideInRight 0.5s both ease-in;
+    -webkit-animation: slideInRight 0.5s both ease-in;
+            animation: slideInRight 0.5s both ease-in;
   }
   .home .introduction {
     height: 100%;
@@ -1066,3 +1145,5 @@ footer .social-links li a:hover {
     padding: 11px 60px;
   }
 }
+
+/*# sourceMappingURL=app.css.map */
