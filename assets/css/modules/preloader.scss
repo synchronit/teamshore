@@ -1,7 +1,12 @@
-/*----------------------
-   2 ) Preloader Styles
-  ----------------------*/
+/*                               ()_()                   
+                                 (. .)                  
+/----------------------------oo0--(_)--0oo-------------------------------------/
 
+/----   PRELOADER     PRELOADER     PRELOADER     PRELOADER     PRELOADER   ---/
+
+                               ooo0  0ooo
+/------------------------------(  )--(  )--------------------------------------/
+/*                             (_)    (_)                                     */
 #preloader {
     position: fixed;
     top: 0;
@@ -10,6 +15,10 @@
     bottom: 0;
     background-color: #1a1b23;
     z-index: 10000;
+    
+    &.on-load {
+        animation: fadeOut 1.5s 1s;
+    }
 }
 
 .loader {
@@ -22,71 +31,40 @@
     top: 50%;
     margin-left: -21px;
     margin-top: -21px;
-}
 
-.loader span {
-    width: 20px;
-    height: 20px;
-    position: absolute;
-    background: red;
-    display: block;
-    -webkit-animation: preloader_6_span 1s infinite linear;
-    animation: preloader_6_span 1s infinite linear;
-}
+    span {
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        background: red;
+        display: block;
+        -webkit-animation: preloader_6_span 1s infinite linear;
+        animation: preloader_6_span 1s infinite linear;
 
-.loader span:nth-child(1) {
-    background: #2ecc71;
-}
+        &:nth-child(1) {
+            background: #2ecc71;
+        }
 
-.loader span:nth-child(2) {
-    left: 22px;
-    background: #9b59b6;
-    -webkit-animation-delay: .2s;
-    animation-delay: .2s;
-}
+        &:nth-child(2) {
+            left: 22px;
+            background: #9b59b6;
+            -webkit-animation-delay: .2s;
+            animation-delay: .2s;
+        }
 
-.loader span:nth-child(3) {
-    top: 22px;
-    background: #3498db;
-    -webkit-animation-delay: .4s;
-    animation-delay: .4s;
-}
+        &:nth-child(3) {
+            top: 22px;
+            background: #3498db;
+            -webkit-animation-delay: .4s;
+            animation-delay: .4s;
+        }
 
-.loader span:nth-child(4) {
-    top: 22px;
-    left: 22px;
-    background: #f1c40f;
-    -webkit-animation-delay: .6s;
-    animation-delay: .6s;
-}
-
-@-webkit-keyframes preloader_6_span {
-    0% {
-        -webkit-transform: scale(1);
-        transform: scale(1);
-    }
-    50% {
-        -webkit-transform: scale(0.5);
-        transform: scale(0.5);
-    }
-    100% {
-        -webkit-transform: scale(1);
-        transform: scale(1);
+        &:nth-child(4) {
+            top: 22px;
+            left: 22px;
+            background: #f1c40f;
+            -webkit-animation-delay: .6s;
+            animation-delay: .6s;
+        }
     }
 }
-
-@keyframes preloader_6_span {
-    0% {
-        -webkit-transform: scale(1);
-        transform: scale(1);
-    }
-    50% {
-        -webkit-transform: scale(0.5);
-        transform: scale(0.5);
-    }
-    100% {
-        -webkit-transform: scale(1);
-        transform: scale(1);
-    }
-}
-

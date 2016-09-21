@@ -4,7 +4,7 @@ app.controller('pageController', function ($scope, $route, pageService) {
         case '/':
             $scope.pageClass = 'home';
             break;
-            
+
         case '/feedback':
             $scope.pageClass = 'page feedback';
             break;
