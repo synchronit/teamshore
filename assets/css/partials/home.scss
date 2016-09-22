@@ -24,8 +24,7 @@
     &.ng-enter {
         animation: slideInLeft 0.5s;
     }
-
-    /* HOMEPAGE INTRODUCCION SECTION */
+    
     .introduction {
         background-color: white;
         padding: 0;
@@ -54,7 +53,6 @@
         }
     }
 
-    /* HOMEPAGE MENU SECTION */
     .menu {
         padding: 0;
         position: relative;
@@ -150,8 +148,7 @@
             }
         }
     }
-
-    /* HOMEPAGE MEDIA QUERIES */    
+    
     @media(min-width: 544px) {
         .menu {
             .principles, .practices {
