@@ -1,3 +1,5 @@
+var app = require('../config');
+
 app.controller('pageController', function ($scope, $route, pageService) {
 
     switch ($route.current.originalPath) {

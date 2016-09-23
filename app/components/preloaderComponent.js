@@ -1,3 +1,5 @@
+var app = require('../config');
+
 app.component('preloader', {
     
     templateUrl: 'app/views/preloader.html',

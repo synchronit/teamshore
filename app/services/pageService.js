@@ -1,3 +1,5 @@
+var app = require('../config');
+
 app.factory('pageService', function ($http, $q, $route) {
 
     return {
