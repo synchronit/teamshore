@@ -1,6 +1,6 @@
 var app = require('../config');
 
-app.factory('pageService', function ($http, $q, $route) {
+app.factory('pageService', ['$http', '$q', '$route', function ($http, $q, $route) {
 
     return {
         getPageData: function (callback) {
@@ -25,4 +25,4 @@ app.factory('pageService', function ($http, $q, $route) {
         }
     };
 
-});
+}]);

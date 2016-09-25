@@ -1,6 +1,6 @@
 var app = require('../config');
 
-app.controller('pageController', function ($scope, $route, pageService) {
+app.controller('pageController', ['$scope', '$route', 'pageService', function ($scope, $route, pageService) {
 
     switch ($route.current.originalPath) {
         case '/':
@@ -23,4 +23,4 @@ app.controller('pageController', function ($scope, $route, pageService) {
         $scope.page = data;
     });
 
-});
+}]);

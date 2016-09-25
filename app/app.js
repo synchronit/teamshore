@@ -1,3 +1,6 @@
+require('../node_modules/bootstrap/dist/css/bootstrap.css');
+require('../assets/css/app.css');
+
 require('angular');
 require('angular-route');
 require('angular-sanitize');
