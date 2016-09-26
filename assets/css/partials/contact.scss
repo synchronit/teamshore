@@ -12,24 +12,21 @@
     h1 {
         margin-bottom: 70px;
     }
-    
+
     .map {
         height: 240px!important;
         margin-bottom: 30px;
     }
 
-    .country {
-        
+    .country {        
+        margin-bottom: 40px;
+
         &:hover {
             cursor: pointer;
         }
-        
+
         &.active {
             color: $primary-color;
-        }
-
-        + .country {
-            margin-top: 40px;
         }
 
         p {

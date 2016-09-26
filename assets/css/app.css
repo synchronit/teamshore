@@ -1064,16 +1064,16 @@ body {
   margin-bottom: 30px;
 }
 
+.contact .country {
+  margin-bottom: 40px;
+}
+
 .contact .country:hover {
   cursor: pointer;
 }
 
 .contact .country.active {
   color: #2495D7;
-}
-
-.contact .country + .country {
-  margin-top: 40px;
 }
 
 .contact .country p {
@@ -1132,13 +1132,18 @@ footer {
   border-top: solid 4px #F5F5F5;
 }
 
+footer .logo {
+  position: absolute;
+}
+
 footer .logo img {
   width: 130px;
 }
 
 footer .social-links {
-  margin: 0;
+  margin: -2px 0 0 0;
   font-size: 40px;
+  text-align: right;
   line-height: 0;
 }
 

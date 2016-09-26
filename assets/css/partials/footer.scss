@@ -18,14 +18,17 @@ footer {
     border-top: solid 4px #F5F5F5;
 
     .logo {
+        position: absolute;
+        
         img {
             width: 130px;
         }
     }
 
     .social-links {
-        margin: 0;
+        margin: -2px 0 0 0;
         font-size: 40px;
+        text-align: right;
         line-height: 0;
 
         li {
