@@ -1,4 +1,4 @@
-var app = angular.module('teamshore', ['ngRoute', 'ngSanitize', 'ngAnimate']);
+var app = angular.module('teamshore', ['ngRoute', 'ngSanitize', 'ngAnimate', 'ngMap']);
 
 app.config(['$routeProvider', '$sceDelegateProvider', '$locationProvider',
     function ($routeProvider, $sceDelegateProvider, $locationProvider) {

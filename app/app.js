@@ -5,6 +5,7 @@ require('angular');
 require('angular-route');
 require('angular-sanitize');
 require('angular-animate');
+require('ngmap');
 
 require('../app/config');
 require('../app/controllers/pageController');

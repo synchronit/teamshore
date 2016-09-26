@@ -1063,8 +1063,21 @@ body {
   margin-bottom: 70px;
 }
 
+.contact .map {
+  height: 240px !important;
+  margin-bottom: 40px;
+}
+
+.contact .country:hover {
+  cursor: pointer;
+}
+
+.contact .country.active {
+  color: #2495D7;
+}
+
 .contact .country + .country {
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 .contact .country p {

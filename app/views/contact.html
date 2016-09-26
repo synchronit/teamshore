@@ -9,14 +9,19 @@
 <h1 class="heading-line text-xs-center">{{page.heading}}</h1>
 
 <div class="row">
-    
-    <div class="col-sm-12 col-md-6">
 
+    <div class="col-sm-12 col-md-6">
+        <ng-map class="map" center="{{page.location}}">
+             <marker position="{{page.location}}" title="hello"></marker>
+        </ng-map>
     </div>
-    
+
     <div class="col-sm-12 col-md-6">
 
-        <div class="country" ng-repeat="country in page.countries">
+        <div id="{{country.country}}" class="country" 
+             ng-repeat="country in page.countries" 
+             ng-click="reLocate(country)"
+             ng-class="{'active': country.active}">
             <div class="flag"><img ng-src="assets/img/flags/{{country.flag}}"></div>
             <p>{{country.country}} - {{country.city}} <small>{{country.address}}</small></p>
         </div>
