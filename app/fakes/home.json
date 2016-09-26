@@ -18,7 +18,7 @@
         {
             "title": "I2C + early feedback",
             "url": "feedback",
-            "icon": "icon-faces",
+            "icon": "icon-feedback",
             "image": "feature-thumbnail3.jpg"
         },
         {
@@ -32,25 +32,25 @@
         {
             "title": "Remote Communication. One Culture",
             "url": "culture",
-            "icon": "icon-laptop",
+            "icon": "icon-group",
             "image": "feature-thumbnail5.jpg"
         },
         {
             "title": "Full Responsibility (SPOC)",
             "url": "spoc",
-            "icon": "icon-group",
+            "icon": "icon-hands",
             "image": "feature-thumbnail6.jpg"
         },
         {
             "title": "Start with SCRUM. Then use LEAN",
             "url": "lean",
-            "icon": "icon-watch",
+            "icon": "icon-chart",
             "image": "feature-thumbnail7.jpg"
         },
         {
             "title": "Favor regular on-site visits. Both ways",
-            "url": "contact",
-            "icon": "icon-contact",
+            "url": "on-site",
+            "icon": "icon-mark",
             "image": "feature-thumbnail8.jpg"
         }
     ]

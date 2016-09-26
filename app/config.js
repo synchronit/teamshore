@@ -35,6 +35,10 @@ app.config(['$routeProvider', '$sceDelegateProvider', '$locationProvider',
                     controller: 'pageController',
                     templateUrl: 'app/views/page.html'
                 })
+                .when('/on-site', {
+                    controller: 'pageController',
+                    templateUrl: 'app/views/page.html'
+                })
                 .when('/contact', {
                     controller: 'pageController',
                     templateUrl: 'app/views/contact.html'

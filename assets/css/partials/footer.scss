@@ -42,6 +42,11 @@ footer {
                 &:hover {
                     color: #2495D7;
                 }
+                
+                &.icon-envelope {
+                    position: relative;
+                    top: 2px;
+                }
             }
         }
     }

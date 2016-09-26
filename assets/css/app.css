@@ -287,7 +287,7 @@ textarea {
   content: "\e901";
 }
 
-.icon-faces:before {
+.icon-feedback:before {
   content: "\e902";
 }
 
@@ -295,31 +295,31 @@ textarea {
   content: "\e903";
 }
 
-.icon-laptop:before {
+.icon-group:before {
   content: "\e904";
 }
 
-.icon-group:before {
+.icon-hands:before {
   content: "\e905";
 }
 
-.icon-watch:before {
+.icon-chart:before {
   content: "\e906";
 }
 
-.icon-contact:before {
+.icon-mark:before {
   content: "\e907";
 }
 
-.icon-incremental:before {
+.icon-bars:before {
   content: "\e908";
 }
 
-.icon-iterative:before {
+.icon-life-cicle:before {
   content: "\e909";
 }
 
-.icon-collaboration:before {
+.icon-business:before {
   content: "\e90a";
 }
 
@@ -335,12 +335,8 @@ textarea {
   content: "\e90d";
 }
 
-.icon-twitter:before {
+.icon-envelope:before {
   content: "\e90e";
-}
-
-.icon-skype:before {
-  content: "\e90f";
 }
 
 /*                               ()_()                   
@@ -1065,7 +1061,7 @@ body {
 
 .contact .map {
   height: 240px !important;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .contact .country:hover {
@@ -1110,7 +1106,6 @@ body {
 
 .contact form {
   margin-bottom: 10px;
-  margin-top: 40px;
 }
 
 .contact form .btn {
@@ -1162,6 +1157,11 @@ footer .social-links li a {
 
 footer .social-links li a:hover {
   color: #2495D7;
+}
+
+footer .social-links li a.icon-envelope {
+  position: relative;
+  top: 2px;
 }
 
 @media (min-width: 768px) {
