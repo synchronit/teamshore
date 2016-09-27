@@ -40,7 +40,7 @@ app.config(['$routeProvider', '$sceDelegateProvider', '$locationProvider',
                     templateUrl: 'app/views/page.html'
                 })
                 .when('/contact', {
-                    controller: 'pageController',
+                    controller: 'contactController',
                     templateUrl: 'app/views/contact.html'
                 })
                 .otherwise({redirectTo: '/'});

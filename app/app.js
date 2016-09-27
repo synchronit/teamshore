@@ -9,6 +9,7 @@ require('ngmap');
 
 require('../app/config');
 require('../app/controllers/pageController');
+require('../app/controllers/contactController');
 require('../app/services/pageService');
 require('../app/components/preloaderComponent');
 

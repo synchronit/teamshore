@@ -12,7 +12,7 @@
 
     <div class="col-sm-12 col-md-6">
         <ng-map class="map" center="{{page.location}}">
-             <marker position="{{page.location}}" title="hello"></marker>
+            <marker position="{{page.location}}" title="hello"></marker>
         </ng-map>
     </div>
 
@@ -29,7 +29,15 @@
     </div>
 </div>
 
-<form class="row" name="contactForm" novalidate="">
+<div class="alert alert-danger" ng-if="error">
+    <strong>Error!</strong> We couldn't send your message. Please try again.
+</div>
+
+<div class="alert alert-success" ng-if="success">
+    <strong>Success!</strong> Your message has been sent successfully.
+</div>
+
+<form class="row" name="contactForm" novalidate="" ng-submit="sendEmail('http://put-url-here.com')">
 
     <div class="form-group col-xs-12 col-md-6" ng-class="{'has-danger': (contactForm.$submitted || contactForm.name.$touched) && contactForm.name.$error.required }">
         <input type="text" class="form-control" ng-model="name" name="name" placeholder="Name*" required="">
